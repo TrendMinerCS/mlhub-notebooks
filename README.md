@@ -2,6 +2,8 @@
 
 A curated collection of Jupyter notebooks and Python scripts demonstrating how to use TrendMiner’s MLHub for time-series analytics, contextual data enrichment, machine-learning model development/deployment, and visualization. Each folder groups examples by theme and lists individual notebooks/scripts with concrete, task-oriented use cases.
 
+GitHub itself does not support interactive outputs. For many of the examples here, you can go to `nbviewer.org`, and paste the GitHub url to get access to the interactive result (i.e., the output graphs) of a Notebook.
+
 ---
 
 ## 📂 Calculations examples
