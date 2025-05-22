@@ -126,6 +126,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints
+
 
 # IPython
 profile_default/
@@ -215,4 +217,6 @@ $RECYCLE.BIN/
 # SDK builder
 _build_sdk.py
 
+# .idea
+.idea
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,windows,linux
