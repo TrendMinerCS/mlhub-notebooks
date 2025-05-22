@@ -91,4 +91,9 @@ Examples of static and interactive visualizations for TrendMiner time-series dat
   - Matplotlib: static trend overlays, rolling-stats ribbons  
   - Plotly: interactive zoom, hover annotations, and export  
 
+- **tag_histogram_examples.ipynb**
+  Demo for plotting histograms of tag time series data, including:
+  - Interactive selection of a specific tag (from predetermined list)
+  - Interactive selection of a given time interval (from predetermined list)
+
 ---
