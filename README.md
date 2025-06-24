@@ -99,8 +99,7 @@ Examples of static and interactive visualizations for TrendMiner time-series dat
 - **plotting_aggregated_values_from_context_items.ipynb**
   Demo of plotting aggregated values from context items in a Plotly plot.
 
-- **correlation_bar_plot.ipynb**
-  Demo of binning time series datapoints based on the values of one tag, and then creating a bar chart showing the 
-  aggregated (e.g. median) value of a second tag within that bin.
+- **binned_correlations.ipynb**
+  Demo of binning time series datapoints based on the values of one tag, and then creating a bar chart showing the aggregated (e.g. median) value of a second tag within that bin, as well as a box plot which gives a full overview of the statistical distribution within each bin.
 
 ---
