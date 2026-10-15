@@ -1,6 +1,6 @@
 # MLHub Notebooks
 
-A curated collection of Jupyter notebooks and Python scripts demonstrating how to use TrendMiner’s MLHub for time-series analytics, contextual data enrichment, machine-learning model development/deployment, and visualization. Each folder groups examples by theme and lists individual notebooks/scripts with concrete, task-oriented use cases.
+A curated collection of Jupyter notebooks and Python scripts demonstrating how to use TrendMiner’s MLHub for time-series analytics, contextual data enrichment, and visualization. Each folder groups examples by theme and lists individual notebooks/scripts with concrete, task-oriented use cases.
 
 GitHub itself does not support interactive outputs. For many of the examples here, you can go to `nbviewer.org`, and paste the GitHub url to get access to the interactive result (i.e., the output graphs) of a Notebook.
 
@@ -50,30 +50,6 @@ Programmatic retrieval of TrendHub view data and metadata with interpolation:
   - Specifying start/end timestamps  
   - Choosing interpolation frequency and method  
   - Handling large date ranges via paging/batching  
-
----
-
-## 📂 ML tags
-
-Scripts and notebooks for building, evaluating, and deploying ML models as real-time “tags” in MLHub:
-
-- **anomaly_detection.py**  
-  Python script that trains an isolation-forest anomaly detector on historical data and deploys it as an ML tag for real-time scoring.
-
-- **Batch_anomaly_detection.ipynb**  
-  Notebook showing how to run anomaly detection in batch mode over archived datasets:  
-  - Feature extraction for each event  
-  - Model training, threshold tuning, and batch scoring  
-  - Exporting results to CSV or back into TrendMiner  
-
-- **import_pmml.py**  
-  Demonstrates how to import a PMML-serialized model (from external tool) into MLHub as a custom tag.
-
-- **linear_regression_example.py**  
-  End-to-end linear regression example: train on historical tag data, evaluate in cross-validation, and publish model as an ML tag.
-
-- **Soft_Sensor_Training_and_Deployment.ipynb**  
-  Build a multi-variable soft sensor (e.g. predicting a lab measurement from process signals), package it, and deploy to MLHub for live predictions.
 
 ---
 
